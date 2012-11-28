@@ -54,18 +54,18 @@ public class Address
 	
 	}
 	
-	public void State(String input)
+	public void changeState(String input)
 	{
 	
 	}
 	
-	public void Zip(int input)
+	public void changeZip(int input)
 	{
 	
 	
 	}
 	
-	public void Country(String input)
+	public void changeCountry(String input)
 	{
 	
 	
