@@ -13,15 +13,21 @@ public class Address
 	
 	public Address(String s1, String s2, String inputCity, String inputState, String cntry, int z)
 	{
-	
-	
+		street1 = s1;
+		street2 = s2;
+		city = inputCity;
+		state = inputState;
+		zip = z;
+		country = cntry;
 	}
 	
-	public Address(String s1, String c, String st, String c, int z)
+	public Address(String s1, String c, String st, String cn, int z)
 	{
-	
-	
-	
+		street1 = s1;
+		city = c;
+		state = st;
+		country = cn;
+		zip = z;
 	}
 	
 	public Address(Address input)
