@@ -73,38 +73,32 @@ public class Address
 	
 	public String getStreet1()
 	{
-	
-	
+		return Street1;
 	}
 	
 	public String getStreet2()
 	{
-	
-	
+		return Street2;
 	}
 	
 	public String getCity()
 	{
-	
-	
+		return City;
 	}
 	
 	public String getState()
 	{
-	
-	
+		return State;
 	}
 	
 	public String getCountry()
 	{
-	
-	
+		return Country;
 	}
 	
 	public int getZip()
 	{
-	
-	
+		return Zip;
 	}
 	
 }
